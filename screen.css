@@ -16,4 +16,23 @@ table {
     border-collapse: collapse;
   }
 
+  tr {
+    border-bottom: 1pt solid black;
+  }
+
+  /* Credit: 
+  https://stackoverflow.com/questions/10040842/add-border-bottom-to-table-row-tr*/ 
+
+  td:nth-child(2), th:nth-child(2), td:nth-child(3), th:nth-child(3), td:nth-child(4), th:nth-child(4), td:nth-child(5), th:nth-child(5)  {
+    border-left: solid 1px black;
+   }
+
+    /* Credit: 
+    https://www.thoughtco.com/add-internal-lines-to-table-with-css-3469872*/ 
+   
+
+
   tr:hover {background-color: coral;}
+
+  /* Credit: 
+  https://www.w3schools.com/css/css_table_style.asp*/ 
